@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color: #66F297;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+
+
+
+div {
+    background-color: #ffffff;
+}
+header {
+    background-color:#044924;
+    padding: 10px;
+    border-top: 10px 10px 10px 10px;
+   
+}
+
+header > h1 {
+    
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    
+}
+
+header > h2 {
+
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}

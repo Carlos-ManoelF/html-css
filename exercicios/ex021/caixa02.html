@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(55, 56, 55);
+        margin: 0px;
+    }
+
+    header {
+       background-color: aliceblue;
+       padding: 10px;
+       margin: 10px;
+    }
+
+    nav {
+        background-color: darkgray;
+        padding: 3px;
+    }
+
+    nav > a {
+        text-decoration: none;
+        color:white;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+
+    nav > a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+      background-color: rgb(179, 186, 192);
+      padding: 10px;
+       margin: 10px;
+    }
+
+    article {
+        background-color: lightslategray;
+        padding: 3px;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 2px;
+        margin: 0px;
+    }
+        
+    </style>
+</head>
+<body>
+      <header>
+        <h1>Notícias do Brasil</h1>
+        <nav> 
+            <a href="#">Sudeste</a>
+            <a href="#">Sul</a>
+            <a href="#">Nordeste</a>
+            <a href="#">Centro-Oeste</a>
+            <a href="#">Norte</a>
+        </nav>
+</header>
+
+<main>
+    <section>
+        <p>Assuntos do Momento</p>
+    </section>
+    <section id="Nesta Semana">
+        <article>
+            <h2>Acidente Em Minas deixa 5 feridos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In temporibus voluptate similique a fuga numquam odio sint iusto fugiat eveniet ut adipisci, recusandae harum, atque consequuntur debitis non hic porro?</p>
+            <acide>
+                <p>Artigo Escrito por Stefany Schuster</p>
+            </acide>
+        </article>
+    </section>
+
+</main>
+
+<footer>
+    <p>Desenvolvido por Carlos</p>
+</footer>
+</body>
+</html>
