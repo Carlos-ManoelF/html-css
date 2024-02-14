@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deafio 2</title>
     <style>
+
+        caption {
+            border: 1px solid black;
+            padding: 16px;
+            background-color: rgb(77, 77, 77);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -37,19 +46,22 @@
         
             <thead>
                 <tr>
-                    <th>Área</th>
-                    <th>Diciplinas</th>
-                    <th >Notas</th>
-                    <th>Notas 1</th>
-                    <th>Notas 2</th>
-                    <th>Média</th>
+                    <th rowspan="2" scope="row">Área</th>
+                    <th rowspan="2" scope="row">Diciplinas</th>
+                    <th colspan="2" scope="row">Notas</th>
+                    <th rowspan="2" scope="row">Média</th>
+                </tr>
+
+                <tr>
+                    <th scope="row">Notas 1</th>
+                    <th scope="row">Notas 2</th>
                 </tr>
             </thead>
 
 
             <tbody>
                 <tr>
-                    <th rowspan="4">Exatas</th>
+                    <th rowspan="4" scope="rowgroup">Exatas</th>
                     <td>Matemática</td>
                     <td>0.0</td>
                     <td>0.0</td>
@@ -81,12 +93,12 @@
 
 
                 <tr>
-                  <th colspan="5">Médias de Exatas</th>
+                  <th colspan="4" scope="colgroup">Médias de Exatas</th>
                   <td>0.0</td>
                 </tr>
 
                 <tr>
-                    <th rowspan="2">Humanas</th>
+                    <th rowspan="2" scope="rowgroup">Humanas</th>
                     <td>História</td>
                     <td>0.0</td>
                     <td>0.0</td>
@@ -101,7 +113,7 @@
                 </tr>
 
                 <tr>
-                    <th colspan="5">Média de Humanas</th>
+                    <th colspan="4" scope="colgroup">Média de Humanas</th>
                     <td>0.0</td>
                 </tr>
             </tbody>
